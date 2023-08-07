@@ -36,3 +36,74 @@
     transform: rotate(360deg);
   }
 }
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-text {
+  font-size: 12px;
+}
+.card-title {
+  font-size: 18px;
+}
+.card-img-top {
+  width: 19vw;
+  height: 22vh;
+  border-radius: 0.6vw;
+}
+.navbar-brand {
+  width: 5.4vw;
+  height: 6.8vh;
+  background: url("/logo2.png") no-repeat center;
+  background-size: cover;
+  border-radius: 5px;
+}
+.col-md-4{
+  display: flex;
+  justify-content: center; 
+}
+@media screen and (max-width: 412px){
+  .card-img-top {
+    width: 60vw;
+    height: 22vh;
+    border-radius: 0.6vw;
+  }
+}
+@media screen and (max-width: 280px){
+  .card-img-top {
+    width: 85vw;
+    height: 22vh;
+    border-radius: 1vw;
+  }
+}
+@media screen and (max-width: 768px){
+  .card-img-top {
+    width: 25vw;
+    height: 15vh;
+    border-radius: 1.2vw;
+  }
+}
+@media screen and (max-width: 820px){
+  .card-img-top {
+    width: 25vw;
+    height: 15vh;
+    border-radius: 1.2vw;
+  }
+}
+@media screen and (max-width: 912px){
+  .card-img-top {
+    width: 25vw;
+    height: 15vh;
+    border-radius: 1.2vw;
+  }
+}
+@media screen and (max-width: 540px){
+  .card-img-top {
+    width: 50vw;
+    height: 25vh;
+    border-radius: 1.2vw;
+  }
+}
+
+
